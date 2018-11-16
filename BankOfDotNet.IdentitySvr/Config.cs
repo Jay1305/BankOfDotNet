@@ -12,7 +12,7 @@ namespace BankOfDotNet.IdentitySvr
 
         public static IEnumerable<ApiResource> GetAllApiResources()
         {
-            return new List<ApiResource> { new ApiResource("BankOfDotNetAPI","Customer API for BankOfDotNet")};
+            return new List<ApiResource> { new ApiResource("bankOfDotNetApi","Customer API for BankOfDotNet")};
         }
 
         public static IEnumerable<Client> GetClient()
